@@ -1,12 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daniel Lucas Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <title>My Portfolio</title>
 </head>
+
 <body>
-    
+  <!--Bootstrap Navbar-->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+    <div class="container">
+      <a class="navbar-brand" href="#">Daniel Lucas</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work-sample">Work Samples</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Me</a>
+          </li>
+          <!-- <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 col-md-4 text-left">
+          <div class="img-container bg-light">
+            <img class="img-fluid" src="./assets/img/Portrait.jpg" alt="Daniel Lucas" class="portrait" />
+          </div>
+        </div>
+        <div class="col-10 col-md-6 text-left align-self-end">
+          <h1 class="display-4 text-light my-2 fw-bold">Daniel Lucas</h1>
+          <h4 class="text-light text-uppercase">Full Stack developer</h4>
+        </div>
+      </div>
+  </section>
+
+  <!--This section contains my bio-->
+  <section id="about-me" class="my-5">
+    <div class="container">
+
+      <h4 class="text-dark text-uppercase border-bottom text-left mb-5">About Me</h4>
+      <div class="row">
+        <div class="col">
+          <p>
+            Daniel Lucas is a former Tucson Police officer, who specializes in many forms of communication. With over
+            seven years in patrol based in Operations Division Midtown, Officer Lucas became the ODM Community Resource
+            Officer. During this time, he was responsible for logistics in a Division of over 70 sworn officers. He also
+            served as a liason between the Division and the local neighborhood associations and City Ward offices.
+            <br>
+            <br>
+
+            Due to his success as the ODM CRO, he was tapped to work in the Chief's office as a Public Information
+            Office where he fulfilled public records requests. He also served as a liason and spokesperson to the
+            locally and nationally syndicated media. Officer Lucas managed communication by facilitating interviews with
+            department personelle, giving statements both on and off camera, and creating content for the Department's
+            social media platforms including Facebook, Twitter, and NextDoor.
+            <br>
+            <br>
+
+            He also worked at the Southern Arizona Law Enforcment Training Center as a class counselor for police
+            recruits. During his time at SALETC, he did performance evaluations, trained recruits physically and
+            academically.Officer Lucas left the Department to pursue other interests.
+            <br>
+            <br>
+
+            As a civilian, Mr Lucas sees his next evolution will focus on computer technology. He will bring his strong
+            communication background to bear with any project in which he participates. Mr. Lucas holds an Associates
+            Degree in the Applied Science of Law Enforcement from Pima Community College, and a Bachelor of Science in
+            Organizational Leadership and Management from Regent University.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  ​
+  <br>
+  <!--This section contains image links to work samples-->
+  <section id="work-sample" class="text-dark bg-light py-5">
+    <div class="container">
+
+      <h4 class="text-uppercase border-bottom text-left mb-5">Work Samples</h4>
+
+      <div class="card-group text-dark">
+        <div class="card">
+          <img src="assets/img/sushi.jpg" alt="Plate of sushi" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/guitar.JPG" alt="Daniel playing guitar" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/cooking.jpg" alt="cooking on a grill" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/gaming.jpg" alt="video gaming" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+  </section>
+    <!-- footercontaining contact info   -->
+  <footer id="contact" class="bg-dark text-light text-center pt-5">
+    <h4 class="text-uppercase">Contact Me</h4>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="mailto:danomiterock@yahoo.com" class="text-light">Personal Email</a></li>
+      <li class="list-inline-item"> | </li>
+      <li class="list-inline-item"><a href="mailto:dan.lucas@propervillainsllc.com" class="text-light">Work Email</a>
+      </li>
+    </ul>​
+  </footer>
+  <!-- mobile phone compatibility script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
+
 </html>
